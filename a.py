@@ -1,4 +1,7 @@
-print('test')
 import streamlit as st
-st.write('Chào bạn')
-st.write('Bài tập 1')
+print('test')
+st.write('Hello')
+st.title('Assignment 1')
+name = st.text_input('Your name:')
+if st.button('Submit'):
+    st.write('Hello,' + name)
